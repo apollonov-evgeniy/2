@@ -360,4 +360,4 @@ and t2.group_nbr = SUBSTR('{test_code}', 1, 2)
 and   t3.item_nbr = SUBSTR('{test_code}', 3, 2) 
 and t4.subitem_nbr = SUBSTR('{test_code}', 5, 6);
 '''
-print(select(sql_test))
+print(select(sql_test).T)
